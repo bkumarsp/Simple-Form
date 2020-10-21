@@ -1,0 +1,35 @@
+doctype
+html
+    head 
+        title "First Page"
+        link(rel="stylesheet", href="styles.css")
+    body
+        legend#container
+            span.Heading Form Details:
+            fieldset.field
+                form#myform(action="/", method="POST") 
+                    label(for="name") Name:             
+                    input(type="text" name="name" placeholder="Your Name" required)
+                    br
+                    label(for="birthdate") Birthdate:           
+                    input(type="date" name="birthdate" required)
+                    br
+                    ol(name = "marks") 
+                      span.mark Marks in five Subjects: 
+                        li#sub1 Subject 1 : 
+                            input(type="number" min='0' max='100' name='sub1' required)
+                        li#sub2 Subject 2 : 
+                            input(type="number" min='0' max='100' name='sub2' required)
+                        li#sub3 Subject 3 : 
+                            input(type="number" min='0' max='100' name = 'sub3' required)
+                        li#sub4 Subject 4 : 
+                            input(type="number" min='0' max='100' name = 'sub4' required)
+                        li#sub5 Subject 5 : 
+                            input(type="number" min='0' max='100' name = 'sub5' required)
+                    input(type="submit", value="Submit")
+                    input(type="reset", value="Clear")
+
+        
+
+        
+                
