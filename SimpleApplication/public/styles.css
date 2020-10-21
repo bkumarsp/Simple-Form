@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to right, rgba(116, 85, 230), cyan, rgba(34, 123, 255, 0.822));
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: black;
+}
+
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Heading {
+    font-size: 40px;
+}
+
+.mark {
+    font-size: 22px;
+}
+
+.field {
+    border: 5px double royalblue;
+    padding: 14px 28px;
+}
+
+input[type=text],
+input[type=date] {
+    width: 100%;
+    padding: 10px 16px;
+    margin: 6px 0;
+    box-sizing: border-box;
+    border: 1px solid crimson;
+    border-radius: 5px;
+    background-color: #9eec1f;
+}
+
+input[type=text]:focus {
+    background-color: rgb(106, 210, 245);
+}
+
+input[type=button],
+input[type=submit],
+input[type=reset] {
+    background-color: #c0ff11f3;
+    position: relative;
+    border: 2.5px ridge rgb(255, 195, 84);
+    padding: 16px 22px;
+    text-decoration: none;
+    margin: 4px;
+    border-radius: 6px;
+    cursor: pointer;
+    left: 11%;
+}
+
+input[type=number] {
+    background-color: #ffef93;
+    border: 1px solid wheat;
+    padding: 8px;
+    text-decoration: none;
+    margin: 5px 3px;
+    cursor: text;
+    width: 25%;
+}
